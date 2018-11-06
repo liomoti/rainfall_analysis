@@ -27,7 +27,7 @@ At the <b> Reduce </b> function we sum the amount of each season each year and c
 Then we find the maximum / minimum season and the year, we show the result obtained with the <b>CleanUp</b> function 
 <br> <br>
 <li><b>rainfall_drought_process.java</b> </li>
- In this process we calculate the multi-annual average as well as the years of drought - that is, when there are at least 3 consecutive years in which rainfall is less than the multi-annual average.<br>
+ In this process we calculate the multi-annual average as well as the years of drought - that is, when there are at least 3 consecutive years in which rainfall is less than the multi-annual average.<br> <br>
 For calculating the multi-annual average, the <b> Map </b> function creates pairs of the form <b> < annual-year average, "drought" > </b>
   <br> The <b> Reduce </b> process sum up all the averages and calculating the multi-annual average.
 <br><br>
