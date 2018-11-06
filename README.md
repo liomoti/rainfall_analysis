@@ -2,8 +2,8 @@
 A summary assignment from the Big Data course
 
 in this project we have 3 Java files whice implements 3 <b>MapReduce</b> process.
-
-<li><b><h3>rainfall_mnx_process.java</h3></b> </li>
+<h3>
+<li><b>rainfall_mnx_process.java</b> </li> </h3>
 in this process we computing the minimum and maximum values:
 <ol>
   <li>Month and year in which the largest monthly rainfall fell amount</li>
