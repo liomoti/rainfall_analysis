@@ -1,5 +1,5 @@
 # rainfall_analysis
-A summary assignment from the Big Data course
+A summary assignment for Big Data course
 
 in this project we have 3 Java files whice implements 3 <b>MapReduce</b> process.
 <h3>
