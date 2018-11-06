@@ -1,10 +1,10 @@
 # rainfall_analysis
 A summary assignment for Big Data course
 
-in this project we have 3 Java files whice implements 3 <b>MapReduce</b> process.
+In this project we have 3 Java files whice implements 3 <b>MapReduce</b> process.
 <h3>
 <li><b>rainfall_mnx_process.java</b> </li> </h3>
-in this process we computing the minimum and maximum values:
+In this process we computing the minimum and maximum values:
 <ol>
   <li>Month and year in which the largest monthly rainfall fell amount</li>
   <li>Month and year in which the smallest monthly rainfall fell amount</li>
@@ -13,8 +13,8 @@ in this process we computing the minimum and maximum values:
 </ol>
 
 The <b>Map</b> function create pairs like this: <b> <year, Monthly amount> </b> <br>
-in this process we find the minimum and maximum values. <br>
-in the <b>CleanUp</b> function of the <b>Map process</b>, we print the largest and smallest monthly rainfall fell amount.
+In this process we find the minimum and maximum values. <br>
+In the <b>CleanUp</b> function of the <b>Map process</b>, we print the largest and smallest monthly rainfall fell amount.
 <br>
 The <b>Reduce</b> function make aggregation and we get pairs in this shape: <strong><year. Annual amount></strong> <br>
 Then we find the maximum and minimum year with the <b>CleanUp</b> function of the <b>Reduce process</b>
