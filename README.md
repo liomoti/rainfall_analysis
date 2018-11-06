@@ -20,7 +20,11 @@ The <strong>Reduce</strong> function make aggregation and we get tuples in this 
 Then we find the maximum and minimum year with the <strong>CleanUp</strong> function of the <strong>Reduce process</strong>
 
 <li><b>rainfall_seasons_process.java</b> </li>
-In this process we calculate the period in the year in which the largest / smallest precipitation fell, a period defined as a season of three consecutive months (winter, fall, summer, spring). <br>
+In this process we calculate the period in the year in which the largest / smallest precipitation fell, a period defined as a season of three consecutive months (winter, fall, summer, spring)<br>
 The <b> Map </b> function create the seasons according to the appropriate months and attach to each pair the appropriate season, thus creating pairs of the form: <b> < Amount, Year - Season > </b> , For example: <213, 2018-Winter>
 <br>
+At the <b> Reduce </b> function we sum the amount of each season each year and create pairs of the form:
+<Total Seasonal Amount, Year-Season> <br>
+Then we find the maximum / minimum season and the year, we show the result obtained with the <strong>CleanUp</strong> function 
+<br> <br>
 <li><b>rainfall_drought_process.java</b> </li>
