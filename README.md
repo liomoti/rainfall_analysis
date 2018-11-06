@@ -33,5 +33,5 @@ For calculating the multi-annual average, the <b> Map </b> function creates pair
 <br><br>
 For calculating the drought period we create pairs of the form: < < A list of average-year>, "drought" > in the <b> Reduce </b> process
 We used <b> TreeMap </b> that create the pairs hierarchically (sorted by year). <br>
-  
-  
+  Using the <b> TreeMap </b> we identify periods of drought, every time we identify drought we show it in the form:
+  < Total average of the drought period, the drought period (end year - start year) >
